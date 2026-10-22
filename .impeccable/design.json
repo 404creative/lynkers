@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T13:53:04+03:00",
+  "title": "Design System: Lynkers Real Estate Consultancy",
+  "extensions": {
+    "colorMeta": {
+      "advisor-navy": {
+        "role": "primary",
+        "displayName": "Advisor Navy",
+        "canonical": "#13294b",
+        "tonalRamp": [
+          "#0f213d",
+          "#1a3866",
+          "#244e8e",
+          "#2e64b7",
+          "#5c8cd6",
+          "#99b7e5",
+          "#cadaf2",
+          "#ebf1fa"
+        ]
+      },
+      "advisor-navy-light": {
+        "role": "primary",
+        "displayName": "Advisor Navy Light",
+        "canonical": "#1f3d6b",
+        "tonalRamp": [
+          "#11223b",
+          "#1d3863",
+          "#284f8a",
+          "#3465b2",
+          "#618dd1",
+          "#9cb8e2",
+          "#ccdaf0",
+          "#ebf1f9"
+        ]
+      },
+      "coral": {
+        "role": "secondary",
+        "displayName": "Coral",
+        "canonical": "#e8604c",
+        "tonalRamp": [
+          "#441009",
+          "#711b0f",
+          "#9e2614",
+          "#cb311a",
+          "#e85e4a",
+          "#f09b8e",
+          "#f7cbc4",
+          "#fcebe8"
+        ]
+      },
+      "coral-ink": {
+        "role": "secondary",
+        "displayName": "Coral Ink",
+        "canonical": "#c4432c",
+        "tonalRamp": [
+          "#3e150e",
+          "#682417",
+          "#923221",
+          "#bb402a",
+          "#da6c58",
+          "#e8a397",
+          "#f3cfc9",
+          "#faedea"
+        ]
+      },
+      "sand": {
+        "role": "tertiary",
+        "displayName": "Sand",
+        "canonical": "#e6dcae",
+        "tonalRamp": [
+          "#3a3312",
+          "#61551e",
+          "#88782a",
+          "#af9a36",
+          "#cfbc63",
+          "#e1d59e",
+          "#efe9cc",
+          "#f9f7ec"
+        ]
+      },
+      "sage": {
+        "role": "tertiary",
+        "displayName": "Sage",
+        "canonical": "#cfd9d5",
+        "tonalRamp": [
+          "#222b27",
+          "#384741",
+          "#4f645b",
+          "#658075",
+          "#8da59b",
+          "#b8c7c1",
+          "#dae2df",
+          "#f1f4f3"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1b2a41",
+        "tonalRamp": [
+          "#162336",
+          "#253a5a",
+          "#34517e",
+          "#4369a2",
+          "#6f90c3",
+          "#a5bada",
+          "#d0dbec",
+          "#edf1f8"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#4a5668",
+        "tonalRamp": [
+          "#20252d",
+          "#353e4a",
+          "#4a5668",
+          "#5f6f86",
+          "#8896aa",
+          "#b5bdca",
+          "#d8dde3",
+          "#f0f2f4"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#5f6b7c",
+        "tonalRamp": [
+          "#21252b",
+          "#373e48",
+          "#4d5765",
+          "#647082",
+          "#8b97a7",
+          "#b7bec8",
+          "#d9dde2",
+          "#f1f2f4"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#999999",
+          "#bfbfbf",
+          "#dedede",
+          "#f2f2f2"
+        ]
+      },
+      "surface-soft": {
+        "role": "neutral",
+        "displayName": "Surface Soft",
+        "canonical": "#f6f8fb",
+        "tonalRamp": [
+          "#182335",
+          "#273b58",
+          "#37527c",
+          "#476a9f",
+          "#7291c0",
+          "#a7bad8",
+          "#d1dbeb",
+          "#edf1f7"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "canonical": "#e3e8ef",
+        "tonalRamp": [
+          "#1c2531",
+          "#2e3d51",
+          "#415572",
+          "#536e92",
+          "#7d94b5",
+          "#aebcd1",
+          "#d5dce7",
+          "#eff2f6"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Border Strong",
+        "canonical": "#cfd8e3",
+        "tonalRamp": [
+          "#1c2530",
+          "#2f3e51",
+          "#425771",
+          "#557091",
+          "#7e96b4",
+          "#aebed0",
+          "#d5dde7",
+          "#eff2f6"
+        ]
+      },
+      "ok-green": {
+        "role": "neutral",
+        "displayName": "OK Green",
+        "canonical": "#1f8a5b",
+        "tonalRamp": [
+          "#0e3e29",
+          "#176845",
+          "#219260",
+          "#2abb7c",
+          "#58daa1",
+          "#97e8c4",
+          "#c9f3e0",
+          "#eafaf3"
+        ]
+      },
+      "whatsapp-green": {
+        "role": "neutral",
+        "displayName": "WhatsApp Green",
+        "canonical": "#17844f",
+        "tonalRamp": [
+          "#0b4127",
+          "#136d41",
+          "#1a985b",
+          "#22c375",
+          "#51e19b",
+          "#92ecc0",
+          "#c7f5de",
+          "#e9fbf2"
+        ]
+      },
+      "deep-space": {
+        "role": "neutral",
+        "displayName": "Deep Space",
+        "canonical": "#050b18",
+        "tonalRamp": [
+          "#0d1d3f",
+          "#16306a",
+          "#1f4494",
+          "#2857be",
+          "#5680dc",
+          "#95b0e9",
+          "#c8d6f4",
+          "#eaeffb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero heading only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section and page titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles, compound and unit names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default text and descriptions."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero and page intro paragraphs."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, chips, tabs and badges."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The word Lynkers in the logo only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "resting",
+        "value": "0 1px 2px rgba(19,41,75,.05)",
+        "purpose": "Large containers such as the sticky price box."
+      },
+      {
+        "name": "hover-lift",
+        "value": "0 10px 24px -14px rgba(19,41,75,.28)",
+        "purpose": "Cards on hover, with translateY(-2px)."
+      },
+      {
+        "name": "floating",
+        "value": "0 24px 48px -28px rgba(19,41,75,.40)",
+        "purpose": "Hero search card and collage images."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Entrances and bubbles."
+      },
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(.2,.7,.2,1)",
+        "purpose": "Hero text rise and state changes."
+      },
+      {
+        "name": "hover",
+        "value": "150-250ms",
+        "purpose": "Button and card hover transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "560px"
+      },
+      {
+        "name": "small",
+        "value": "640px"
+      },
+      {
+        "name": "tablet",
+        "value": "820px"
+      },
+      {
+        "name": "desktop-narrow",
+        "value": "1000px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action: search, book a viewing, talk to a consultant.",
+      "html": "<button class=\"ds-btn-primary\">كلّم مستشار</button>",
+      "css": ".ds-btn-primary{font-family:'Noto Sans Arabic',sans-serif;height:42px;padding:0 18px;border:0;border-radius:12px;background:linear-gradient(180deg,#22426f,#13294b);color:#fff;font-size:14px;font-weight:600;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 8px 18px -10px rgba(19,41,75,.7);transition:transform .15s,box-shadow .2s}.ds-btn-primary:hover{transform:translateY(-1px);background:linear-gradient(180deg,#2a4f85,#183462)}.ds-btn-primary:focus-visible{outline:2px solid #2a4f85;outline-offset:2px}.ds-btn-primary:active{transform:scale(.98)}"
+    },
+    {
+      "name": "Accent Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "Booking and launch actions only.",
+      "html": "<button class=\"ds-btn-accent\">احجز بسعر الإطلاق</button>",
+      "css": ".ds-btn-accent{font-family:'Noto Sans Arabic',sans-serif;height:42px;padding:0 18px;border:0;border-radius:12px;background:linear-gradient(180deg,#d2533d,#bf432d);color:#fff;font-size:14px;font-weight:600;cursor:pointer;transition:transform .15s}.ds-btn-accent:hover{transform:translateY(-1px);background:linear-gradient(180deg,#c94b35,#b23c27)}.ds-btn-accent:focus-visible{outline:2px solid #2a4f85;outline-offset:2px}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary actions next to a primary one.",
+      "html": "<button class=\"ds-btn-line\">كل المناطق</button>",
+      "css": ".ds-btn-line{font-family:'Noto Sans Arabic',sans-serif;height:42px;padding:0 18px;border:1px solid #d7dfe9;border-radius:12px;background:#fff;color:#13294b;font-size:14px;font-weight:600;cursor:pointer;transition:.2s}.ds-btn-line:hover{border-color:#9fb2c9;background:#f7f9fc}.ds-btn-line:focus-visible{outline:2px solid #2a4f85;outline-offset:2px}"
+    },
+    {
+      "name": "WhatsApp Button",
+      "kind": "button",
+      "refersTo": "button-whatsapp",
+      "description": "Hands the buyer to a consultant on WhatsApp.",
+      "html": "<button class=\"ds-btn-wa\">واتساب</button>",
+      "css": ".ds-btn-wa{font-family:'Noto Sans Arabic',sans-serif;height:42px;padding:0 18px;border:0;border-radius:12px;background:linear-gradient(180deg,#17844f,#136f42);color:#fff;font-size:14px;font-weight:600;cursor:pointer}.ds-btn-wa:hover{background:linear-gradient(180deg,#157a49,#11643c)}.ds-btn-wa:focus-visible{outline:2px solid #2a4f85;outline-offset:2px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Shortcuts, sub-areas, categories and developer filters.",
+      "html": "<div dir=\"rtl\" style=\"display:flex;gap:8px\"><button class=\"ds-chip ds-on\">الكل</button><button class=\"ds-chip\">النرجس</button><button class=\"ds-chip\">اللوتس</button></div>",
+      "css": ".ds-chip{font-family:'Noto Sans Arabic',sans-serif;height:34px;padding:0 14px;border:1px solid #d7dfe9;border-radius:999px;background:#fff;color:#4a5668;font-size:13px;font-weight:600;cursor:pointer;transition:.2s}.ds-chip:hover{border-color:#9fb2c9;color:#13294b;background:#f7f9fc}.ds-chip.ds-on{background:#13294b;border-color:#13294b;color:#fff}.ds-chip:focus-visible{outline:2px solid #2a4f85;outline-offset:2px}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Natural-language search field in the hero.",
+      "html": "<label class=\"ds-input\" dir=\"rtl\"><input placeholder=\"مثلاً: شقة 3 غرف في التجمع تحت 9 مليون\"></label>",
+      "css": ".ds-input{display:flex;align-items:center;min-height:48px;padding:0 14px;border:1px solid #d7dfe9;border-radius:14px;background:#fff}.ds-input:focus-within{border-color:#13294b;box-shadow:0 0 0 3px rgba(31,61,107,.22)}.ds-input input{font-family:'Noto Sans Arabic',sans-serif;flex:1;border:0;outline:0;font-size:16px;color:#1b2a41;background:none;caret-color:#13294b}.ds-input input::placeholder{color:#6b7686}"
+    },
+    {
+      "name": "Compound Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Compound listing on area pages: photo, status, developer, terms and starting price.",
+      "html": "<div class=\"ds-card\" dir=\"rtl\"><div class=\"ds-card-img\"><span>تحت الإنشاء</span></div><div class=\"ds-card-body\"><small>النرجس، التجمع الخامس</small><h3>كمبوند ذا كريست</h3><p>مقدم من 10% · لحد 8 سنين</p><div class=\"ds-card-foot\"><small>يبدأ من</small><b>8,900,000 ج.م</b></div></div></div>",
+      "css": ".ds-card{font-family:'Noto Sans Arabic',sans-serif;width:300px;border:1px solid #e3e8ef;border-radius:16px;overflow:hidden;background:#fff;transition:transform .25s,box-shadow .25s}.ds-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px -14px rgba(19,41,75,.28);border-color:#cfd8e3}.ds-card-img{height:150px;background:#dfe6ee;position:relative}.ds-card-img span{position:absolute;top:12px;right:12px;background:#fff;color:#13294b;font-size:11.5px;font-weight:600;padding:3px 10px;border-radius:999px}.ds-card-body{padding:14px 16px 16px}.ds-card-body small{color:#5f6b7c;font-size:12px}.ds-card-body h3{margin:2px 0 8px;font-family:'Noto Kufi Arabic',sans-serif;font-size:16px;color:#1b2a41}.ds-card-body p{margin:0 0 12px;font-size:13px;color:#4a5668}.ds-card-foot{border-top:1px solid #e3e8ef;padding-top:10px}.ds-card-foot b{display:block;font-size:18px;color:#13294b;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "72px header with logo, links and the consultant button.",
+      "html": "<nav class=\"ds-nav\" dir=\"rtl\"><b class=\"ds-logo\">Lynkers</b><a>بحث</a><a class=\"ds-new\">إطلاقات جديدة</a><a>المناطق</a><a>المدونة</a><button>كلّم مستشار</button></nav>",
+      "css": ".ds-nav{font-family:'Noto Sans Arabic',sans-serif;display:flex;align-items:center;gap:22px;height:72px;padding:0 20px;background:rgba(255,255,255,.9);border-bottom:1px solid #e6eaf0}.ds-logo{font-family:'Cormorant Garamond',serif;font-size:28px;color:#13294b}.ds-nav a{font-size:15px;font-weight:500;color:#4a5668;cursor:pointer;position:relative}.ds-nav a:hover{color:#13294b}.ds-new::after{content:'';position:absolute;top:-2px;left:-8px;width:6px;height:6px;border-radius:50%;background:#e8604c}.ds-nav button{margin-inline-start:auto;height:40px;padding:0 16px;border:0;border-radius:12px;background:linear-gradient(180deg,#22426f,#13294b);color:#fff;font-weight:600;cursor:pointer}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Trusted Advisor",
+    "overview": "Lynkers should feel like a calm consultant sitting next to the buyer: clear, honest and in no hurry to push. The page is mostly white paper and deep navy, with photography of real homes doing the emotional work and the interface staying out of the way. Coral appears only where the buyer can act or where something is genuinely new, so it keeps its meaning.\n\nDensity is moderate. Sections breathe with even spacing, cards sit on thin borders rather than heavy shadows, and every price is shown with its down payment, years and monthly installment so nothing feels hidden. The whole site is Arabic and right-to-left; Kufi headings give it a confident, modern Egyptian voice while the Sans body keeps long text easy to read.\n\nThe user explicitly rejected dark \"luxury\" gold styling, heavy dark sections, background patterns, scattered decoration and anything that looks copied from Nawy.",
+    "keyCharacteristics": [
+      "White and navy foundation; coral reserved for actions and \"new\".",
+      "Real property photography carries the mood; no illustrations or textures.",
+      "Thin borders at rest, a soft shadow only on hover.",
+      "One radius family (10 / 12 / 16 / 20px) and pill chips for small filters.",
+      "Arabic RTL, Kufi headings, Sans body, Cormorant only for the \"Lynkers\" wordmark."
+    ],
+    "rules": [
+      {
+        "name": "The Coral Means Act Rule",
+        "body": "Coral appears on buttons the buyer can press and on \"new\" or \"offer\" labels. Prices, numbers and data stay navy.",
+        "section": "colors"
+      },
+      {
+        "name": "The Accessible Coral Rule",
+        "body": "White text never sits on #e8604c; fills behind text use Coral Ink #c4432c.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "No small label above a heading. The heading carries its own weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Price Rule",
+        "body": "Prices, stats and tables use tabular numerals so figures line up.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Elevation Rule",
+        "body": "A card has a border or a shadow, never a wide shadow under a border at rest.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep coral for actions and \"new\"; show prices and numbers in Advisor Navy.",
+      "Do use Coral Ink #c4432c behind any white text.",
+      "Do keep every card on a 1px #e3e8ef border with the 16px radius, and add shadow only on hover.",
+      "Do show price, down payment, years and monthly installment together, and label demo or estimated values.",
+      "Do keep sections on the 56px rhythm and alternate white and #f6f8fb bands.",
+      "Do check every page at 375px for horizontal overflow."
+    ],
+    "donts": [
+      "Don't use gold, dark \"luxury\" sections or heavy dark backgrounds (the map's space intro is the only dark surface).",
+      "Don't add background patterns, dot grids, blobs, rings or other decoration.",
+      "Don't put an eyebrow label above a heading or number sections \"01 / 02\".",
+      "Don't nest a card inside a card or stack many chips on top of a photo.",
+      "Don't give each developer a different bright color; monograms stay #eef2f8 with navy letters until real logos arrive.",
+      "Don't copy Nawy's or The Village's content, images or logos."
+    ]
+  }
+}
