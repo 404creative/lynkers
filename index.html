@@ -2030,6 +2030,16 @@ const PROJ_INFO = {
   "لاجونا باي":         {sub:"سيدي عبد الرحمن", acres:150, status:"تحت الإنشاء", amen:["beach","lagoon","pool","kids","sec","mall"], desc:"قرية ساحلية على شاطئ رملي أبيض ولاجونات كريستال، شاليهات صف أول وتاني."},
   "رأس الحكمة باي":     {sub:"رأس الحكمة", acres:110, status:"تحت الإنشاء", amen:["beach","lagoon","pool","club","sec","mall"], desc:"مشروع ساحلي في رأس الحكمة، فيلل على اللاجون وشاليهات بفيو بحر."},
   "بلو ويف":            {sub:"الجلالة", acres:45, status:"تحت الإنشاء", amen:["beach","pool","kids","sec"], desc:"ستوديوهات وشاليهات قريبة من القاهرة، مناسبة للويك إند وللإيجار."},
+  "جولدن هايتس":        {sub:"جولدن سكوير", acres:58, status:"تحت الإنشاء", amen:["pool","club","gym","green","sec","track"], desc:"شقق وتوين هاوس جنب محور محمد نجيب، لاند سكيب واسع وكلوب هاوس على بحيرة."},
+  "بارك أفينيو التسعين": {sub:"شارع التسعين", acres:14, status:"جاهز للسكن", amen:["gym","mall","sec","park"], desc:"مبنى سكني تجاري على شارع التسعين، شقق متشطبة قريبة من البنوك والمولات."},
+  "R8 فيوز":            {sub:"الحي السكني R8", acres:30, status:"تحت الإنشاء", amen:["pool","kids","green","sec","school"], desc:"شقق عائلية في R8 بمقدمات قليلة وتقسيط طويل، قريبة من المونوريل."},
+  "جرين ريفر ريزيدنس":  {sub:"الحي السكني R7", acres:42, status:"تحت الإنشاء", amen:["pool","club","green","sec","track"], desc:"كمبوند على امتداد النهر الأخضر، شقق ودوبلكسات بفيو مفتوح."},
+  "دجلة جاردنز":        {sub:"دجلة", acres:11, status:"جاهز للسكن", amen:["green","sec","park","school"], desc:"عمارات قليلة الأدوار في شوارع دجلة الهادية، شقق بجاردن ودوبلكسات."},
+  "صن سيتي أكتوبر":     {sub:"حدائق أكتوبر", acres:65, status:"تحت الإنشاء", amen:["pool","club","kids","green","sec","mall"], desc:"كمبوند كبير في حدائق أكتوبر، شقق وتاون هاوس بسعر متر مناسب."},
+  "زايد هايتس":         {sub:"الحي الأول", acres:24, status:"تحت الإنشاء", amen:["pool","gym","green","sec","school"], desc:"تاون هاوس وشقق قريبة من أركان بلازا والمدارس الدولية."},
+  "فيوتشر هيلز":        {sub:"المرحلة الثانية", acres:85, status:"تحت الإنشاء", amen:["pool","club","kids","green","sec","track"], desc:"امتداد مستقبل سيتي بأسعار إطلاق، توين هاوس وشقق بتقسيط لحد 10 سنين."},
+  "سيدي بيتش":          {sub:"سيدي عبد الرحمن", acres:90, status:"تحت الإنشاء", amen:["beach","lagoon","pool","kids","sec"], desc:"شاليهات وتاون هاوس على شاطئ رملي، أغلب الوحدات بفيو لاجون."},
+  "الجلالة هايتس":      {sub:"الجلالة", acres:38, status:"تحت الإنشاء", amen:["beach","pool","club","sec"], desc:"شاليهات على الجبل بفيو بانوراما على البحر، قريبة من جامعة الجلالة."},
 };
 const GALLERY = ["1600607687939-ce8a6c25118c","1600566753190-17f0baa2a6c3","1512917774080-9991f1c4c750","1564013799919-ab600027ffc6","1600585154340-be6161a56a0c","1493809842364-78817add7ffb","1502672260266-1c1ef2d93688","1522708323590-d24dbb6b0267"];
 /* project locations on the map (units link to a project by name) */
@@ -2049,6 +2059,16 @@ const PROJECTS = [
   {name:"داون تاون ريزيدنس", ll:[30.03,31.75]},
   {name:"واحات أكتوبر", ll:[29.93,30.965]},
   {name:"رأس الحكمة باي", ll:[31.02,28.5]},
+  {name:"جولدن هايتس", ll:[29.975,31.43]},
+  {name:"بارك أفينيو التسعين", ll:[30.045,31.51]},
+  {name:"R8 فيوز", ll:[30.00,31.73]},
+  {name:"جرين ريفر ريزيدنس", ll:[30.045,31.785]},
+  {name:"دجلة جاردنز", ll:[29.955,31.29]},
+  {name:"صن سيتي أكتوبر", ll:[29.97,30.90]},
+  {name:"زايد هايتس", ll:[30.065,30.99]},
+  {name:"فيوتشر هيلز", ll:[30.17,31.655]},
+  {name:"سيدي بيتش", ll:[30.94,28.85]},
+  {name:"الجلالة هايتس", ll:[29.58,32.29]},
 ];
 const TYPES = [
   {id:"apt", name:"شقة", keys:["شقه","شقق","apartment"]},
@@ -2084,6 +2104,18 @@ const RAW = [
   {id:10,title:"بنتهاوس بروف خاص",project:"كمبوند ذا كريست",dev:"هورايزون للتطوير",area:"tagamoa",type:"pent",beds:3,baths:3,size:210,price:14.3e6,down:10,years:8,delivery:"2027",finished:false,daysAgo:12,left:2,offerDays:0,img:IMG("1493809842364-78817add7ffb"),video:""},
   {id:11,title:"شقة غرفتين بدون مقدم",project:"فيوتشر بارك",dev:"نايل سيتي للتعمير",area:"mostakbal",type:"apt",beds:2,baths:1,size:115,price:5.2e6,down:0,years:10,delivery:"2029",finished:false,daysAgo:14,left:12,offerDays:4,img:IMG("1522708323590-d24dbb6b0267"),video:""},
   {id:12,title:"شاليه بجاردن على اللاجون",project:"بلو ويف",dev:"صن رايز",area:"sokhna",type:"chalet",beds:2,baths:2,size:95,price:5.9e6,down:5,years:8,delivery:"2028",finished:true,daysAgo:16,left:7,offerDays:0,img:IMG("1499793983690-e29da59ef1c2"),video:""},
+  {id:23,title:"شقة بفيو البحيرة",project:"جولدن هايتس",dev:"نايل سيتي للتعمير",area:"tagamoa",type:"apt",beds:3,baths:2,size:170,price:9.6e6,down:10,years:8,delivery:"2028",finished:false,daysAgo:5,left:5,offerDays:0,img:IMG("1600607687939-ce8a6c25118c"),video:""},
+  {id:24,title:"توين هاوس كورنر",project:"جولدن هايتس",dev:"نايل سيتي للتعمير",area:"tagamoa",type:"twin",beds:4,baths:4,size:300,price:22.5e6,down:10,years:8,delivery:"2028",finished:false,daysAgo:13,left:2,offerDays:4,img:IMG("1580587771525-78b9dba3b914"),video:""},
+  {id:25,title:"شقة متشطبة على التسعين",project:"بارك أفينيو التسعين",dev:"ريفر للتطوير",area:"tagamoa",type:"apt",beds:2,baths:2,size:125,price:8.1e6,down:20,years:5,delivery:"فوري",finished:true,daysAgo:7,left:3,offerDays:0,img:IMG("1502672260266-1c1ef2d93688"),video:""},
+  {id:26,title:"شقة 3 غرف بمقدم 5%",project:"R8 فيوز",dev:"صن رايز",area:"capital",type:"apt",beds:3,baths:2,size:150,price:5.9e6,down:5,years:10,delivery:"2029",finished:false,daysAgo:2,left:10,offerDays:5,img:IMG("1522708323590-d24dbb6b0267"),video:""},
+  {id:27,title:"دوبلكس بفيو النهر الأخضر",project:"جرين ريفر ريزيدنس",dev:"هورايزون للتطوير",area:"capital",type:"duplex",beds:4,baths:3,size:240,price:10.4e6,down:10,years:10,delivery:"2029",finished:false,daysAgo:10,left:4,offerDays:0,img:IMG("1564013799919-ab600027ffc6"),video:""},
+  {id:28,title:"شقة بجاردن في دجلة",project:"دجلة جاردنز",dev:"ريفر للتطوير",area:"maadi",type:"apt",beds:3,baths:2,size:175,price:11.2e6,down:15,years:6,delivery:"فوري",finished:true,daysAgo:4,left:2,offerDays:0,img:IMG("1600566753190-17f0baa2a6c3"),video:""},
+  {id:29,title:"تاون هاوس بجنينة",project:"صن سيتي أكتوبر",dev:"صن رايز",area:"october",type:"town",beds:4,baths:3,size:230,price:12.9e6,down:5,years:9,delivery:"2028",finished:false,daysAgo:6,left:5,offerDays:3,img:IMG("1600585154340-be6161a56a0c"),video:""},
+  {id:30,title:"شقة غرفتين قريبة من المحور",project:"صن سيتي أكتوبر",dev:"صن رايز",area:"october",type:"apt",beds:2,baths:2,size:120,price:5.6e6,down:10,years:8,delivery:"2028",finished:false,daysAgo:15,left:8,offerDays:0,img:IMG("1493809842364-78817add7ffb"),video:""},
+  {id:31,title:"تاون هاوس قريب من أركان",project:"زايد هايتس",dev:"الواحة العقارية",area:"zayed",type:"town",beds:3,baths:3,size:210,price:16.2e6,down:10,years:8,delivery:"2027",finished:false,daysAgo:3,left:3,offerDays:0,img:IMG("1564013799919-ab600027ffc6"),video:""},
+  {id:32,title:"توين هاوس بسعر إطلاق",project:"فيوتشر هيلز",dev:"نايل سيتي للتعمير",area:"mostakbal",type:"twin",beds:4,baths:3,size:260,price:16.8e6,down:5,years:10,delivery:"2030",finished:false,daysAgo:1,left:6,offerDays:7,img:IMG("1613490493576-7fde63acd811"),video:""},
+  {id:33,title:"شاليه بفيو لاجون",project:"سيدي بيتش",dev:"مارينا ديفلوبمنتس",area:"sahel",type:"chalet",beds:2,baths:2,size:100,price:8.7e6,down:10,years:7,delivery:"2028",finished:false,daysAgo:5,left:4,offerDays:0,img:IMG("1512917774080-9991f1c4c750"),video:""},
+  {id:34,title:"شاليه بانوراما على البحر",project:"الجلالة هايتس",dev:"صن رايز",area:"sokhna",type:"chalet",beds:2,baths:2,size:105,price:6.8e6,down:10,years:8,delivery:"2028",finished:false,daysAgo:9,left:5,offerDays:2,img:IMG("1499793983690-e29da59ef1c2"),video:""},
 ];
 /* sample presenter clips (Mixkit, free license) so the stories show someone talking — replace with Lynkers' own videos */
 const MIX = (id, q = 720) => `https://assets.mixkit.co/videos/${id}/${id}-${q}.mp4`;
